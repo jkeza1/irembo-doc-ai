@@ -1,0 +1,61 @@
+# Python environment
+# .venv/ - INCLUDED IN REPO
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Tesseract and other binaries - EXCLUDE ALL EXCEPT WHAT WE NEED
+*.exe
+*.dll
+*.html
+tessdata/
+doc/
+.git/
+
+# Keep only: datasets/, output/, and *.ipynb
+# Everything else in root directory except specific files
+/*
+!/.gitignore
+!/datasets/
+!/output/
+!/Document_Verification_ML_Model.ipynb
+!/README.md
+!/SETUP_GUIDE.md
+!/DEPLOYMENT_PLAN.md
+!/ML_TRACK_CHECKLIST.md
+!/requirements.txt
+!/app.py
+!/Dockerfile
+!/docker-compose.yml
+!/js/
+!/index.html
+!/landing_rw.html
+!/ai_powered_document_upload.html
+!/citizen_appeal_form.html
+!/citizen_appeals_dashboard.html
+!/citizen_application_dashboard.html
+!/document_upload_ai_feedback.html
+!/officer_ai_review_workbench.html
+!/officer_verification_queue.html
+!/officer_verification_workbench.html
